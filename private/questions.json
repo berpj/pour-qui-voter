@@ -1,0 +1,113 @@
+[
+  {
+    "question": "Il faut dépénaliser l'usage du cannabis",
+    "description": "",
+    "category": "societe",
+    "fg": 0,
+    "eelv": 1,
+    "ps": 0,
+    "pld": 1,
+    "udi": -1,
+    "lr": -1,
+    "fn": -1
+  },
+  {
+    "question": "Il faut abroger la loi sur le mariage pour tous",
+    "description": "",
+    "category": "societe",
+    "fg": -1,
+    "eelv": -1,
+    "ps":-1,
+    "pld": -1,
+    "lr": 1,
+    "fn": 1
+  },
+  {
+    "question": "Il faut aller vers plus d'Europe",
+    "description": "",
+    "category": "europe",
+    "fg": -1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": 1,
+    "lr": 0,
+    "fn": -1
+  },
+  {
+    "question": "Il faut aller vers plus d'Europe",
+    "description": "",
+    "category": "europe",
+    "fg": -1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": 1,
+    "lr": 0,
+    "fn": -1
+  },
+  {
+    "question": "L'immigration est une chance pour la France",
+    "description": "",
+    "category": "immigration",
+    "fg": 1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": 1,
+    "lr": -1,
+    "fn": -1
+  },
+  {
+    "question": "Il faut accueillir les réfugiés Syriens en France",
+    "description": "",
+    "category": "immigration",
+    "fg": 1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": 1,
+    "lr": -1,
+    "fn": -1
+  },
+  {
+    "question": "Il faut augmenter les impôts des plus fortunés",
+    "description": "",
+    "category": "impots",
+    "fg": 1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": -1,
+    "lr": -1,
+    "fn": 1
+  },
+  {
+    "question": "Il faut renforcer la présence des forces de l'ordre dans notre pays",
+    "description": "",
+    "category": "securite",
+    "fg": 0,
+    "eelv": 0,
+    "ps": 1,
+    "pld": 0,
+    "lr": 1,
+    "fn": 1
+  },
+  {
+    "question": "Il faut intensifier la lutte militaire contre DAESH",
+    "description": "",
+    "category": "international",
+    "fg": 0,
+    "eelv": 1,
+    "ps": 1,
+    "pld": 1,
+    "lr": 1,
+    "fn": 1
+  },
+  {
+    "question": "Sortir du nucléaire est urgent",
+    "description": "",
+    "category": "energie",
+    "fg": 0,
+    "eelv": 1,
+    "ps": 0,
+    "pld": -1,
+    "lr": -1,
+    "fn": 0
+  }
+]

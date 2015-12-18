@@ -1,0 +1,5 @@
+h1.loading {
+  font-weight: 400 !important;
+  margin-top: 30%;
+  border-bottom: 2px solid #eee;
+}

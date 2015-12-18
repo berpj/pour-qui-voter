@@ -1,0 +1,9 @@
+[
+  {"name": "Le Front de gauche", "acronym": "fg", "description": "Le parti d'extrème-gauche présidé par Jean-Luc Mélenchon. Son idéologie est essentiellement anticapitaliste et progressiste."},
+  {"name": "Europe Écologie Les Verts", "acronym": "eelv", "description": "Le parti de gauche présidé par Emmanuelle Cosse. Son idéologie est essentiellement écologiste."},
+  {"name": "Le Parti socialiste", "acronym": "ps", "description": "Le parti de gauche présidé par Jean-Christophe Cambadélis. Son idéologie est essentiellement socialiste."},
+  {"name": "Le Parti Libéral Démocrate", "acronym": "pld", "description": "Le parti du centre-droit présidé par Aurélien Véron. Son idéologie est essentiellement libéral."},
+  {"name": "L'UDI-MoDem", "acronym": "udi", "description": "Le parti du centre-droit présidé par Jean-Christophe Lagarde. Son idéologie est essentiellement le social-libéralisme."},
+  {"name": "Les Républicains", "acronym": "lr", "description": "Le parti de droite présidé par Nicolas Sarkozy. Son idéologie est essentiellement gauliste et conservatiste."},
+  {"name": "Le Front national", "acronym": "fn", "description": "Le parti d'extrème-droite présidé par Marine Lepen. Son idéologie est essentiellement nationaliste et conservatiste."}
+]

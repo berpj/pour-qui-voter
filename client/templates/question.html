@@ -1,0 +1,32 @@
+<template name="question">
+  {{#each randomQuestion}}
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="question">
+          <h1>{{question}}</h1>
+          <p>
+            {{description}}
+          </p>
+          <p>
+            #{{category}}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row answers">
+      <div class="col-xs-6">
+        <div class="btn btn-default yes choice" id="{{_id}}">
+          Oui
+        </div>
+      </div>
+      <div class="col-xs-6">
+        <div class="btn btn-default no choice" id="{{_id}}">
+          Non
+        </div>
+      </div>
+    </div>
+  {{/each}}
+  <div class="count">
+    {{answeredQuestions}} réponses sur {{totalQuestions}}
+  </div>
+</template>
