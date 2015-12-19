@@ -1,5 +1,5 @@
 body {
-  background-color: #5B86BD !important;
+  background-color: #2980b9 !important;
   color: white;
   text-align: center;
   font-size: 2em !important;
@@ -54,13 +54,6 @@ a:active, a:hover, a:visited {
 .btn-default {
   background-color: white;
   color: #337ab7;
-}
-
-.loading-message {
-  color: #fff;
-  font-size: 25px;
-  font-weight: 300;
-  font-family: sans-serif;
 }
 
 .sk-spinner-rotating-plane.sk-spinner {

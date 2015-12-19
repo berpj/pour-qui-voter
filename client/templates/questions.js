@@ -1,10 +1,6 @@
 Session.set('answers', []);
 Session.set('currentQuestion', 0);
 
-Template.registerHelper('getBody', function () {
-  return Session.get('splashLoaded') ? 'home' : 'loading';
-});
-
 Template.question.helpers({
   randomQuestion: function() {
     return Questions.find({}, {skip: Session.get('currentQuestion'), limit: 1});
