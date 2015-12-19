@@ -1,5 +1,5 @@
 App.info({
-  name: 'Quel vote ?',
+  name: 'Quel vote',
   description: 'Pour qui voterez-vous ?',
   author: 'Pierre-Jean Bergeron',
   version: '0.1.0'
