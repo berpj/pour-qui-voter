@@ -13,16 +13,17 @@ Meteor.publish('questions', function() {
   var randomPositions = [];
   var randomIds = [];
   var newPosition = 0;
-  var newId = '';
+  var questions_length = Questions.find().fetch().length;
 
   for (i = 0; i < NB_OF_QUESTIONS; i++) {
-    newPosition = Math.floor(Math.random() * Questions.find().fetch().length);
+    newPosition = Math.floor(Math.random() * questions_length);
+
     while (randomPositions.indexOf(newPosition) > -1) {
-      newPosition = Math.floor(Math.random() * Questions.find().fetch().length);
+      newPosition = Math.floor(Math.random() * questions_length);
     }
-    newId = Questions.find({}, {skip: newPosition, limit: 1}).fetch()[0]._id;
+
     randomPositions.push(newPosition);
-    randomIds.push(newId);
+    randomIds.push(Questions.findOne({}, {skip: newPosition, limit: 1})._id);
   }
 
   return Questions.find({_id: {$in: randomIds}});

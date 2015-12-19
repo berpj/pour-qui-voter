@@ -131,5 +131,49 @@
     "pld": 0,
     "lr": 1,
     "fn": 1
+  },
+  {
+    "question": "Il faut supprimer les 35h",
+    "description": "",
+    "category": "travail",
+    "fg": 0,
+    "eelv": 0,
+    "ps": 0,
+    "pld": 1,
+    "lr": 1,
+    "fn": 1
+  },
+  {
+    "question": "Il faut maintenir, voir augmenter, le nombre d'emplois publics",
+    "description": "",
+    "category": "publique",
+    "fg": 1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": -1,
+    "lr": -1,
+    "fn": 0
+  },
+  {
+    "question": "Il faut que la loi donne plus de pouvoirs aux salariés",
+    "description": "",
+    "category": "entreprise",
+    "fg": 1,
+    "eelv": 1,
+    "ps": 1,
+    "pld": -1,
+    "lr": -1,
+    "fn": 1
+  },
+  {
+    "question": "On ne doit pas négliger les valeurs morales portées par la religion",
+    "description": "",
+    "category": "laicite",
+    "fg": -1,
+    "eelv": -1,
+    "ps": 0,
+    "pld": 0,
+    "lr": 1,
+    "fn": 1
   }
 ]

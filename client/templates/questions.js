@@ -26,7 +26,7 @@ function findResult() {
   });
 
   Session.get('answers').forEach(function(answer){
-    question = Questions.find({_id: answer.question}).fetch()[0];
+    question = Questions.findOne({_id: answer.question});
 
     Parties.find().forEach(function(party){
       console.log(party.name);
