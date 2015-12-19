@@ -18,3 +18,6 @@ App.launchScreens({
   'iphone6': 'resources/splash/default-750@2x~iphone6-portrait_750x1334.png',
   'iphone6p_portrait': 'resources/splash/default-750@2x~iphone6-portrait_750x1334.png'
 });
+
+App.setPreference('StatusBarOverlaysWebView', 'true');
+App.setPreference('StatusBarStyle', 'lightcontent');
