@@ -21,6 +21,7 @@ h1 {
   bottom: 18%;
   left: 0;
   right: 0;
+  margin: 0;
 }
 
 .retry .btn {
@@ -46,7 +47,7 @@ h1 {
   color: white;
 }
 
-a:active, a:hover {
+a:active, a:hover, a:visited {
   color: white !important;
 }
 

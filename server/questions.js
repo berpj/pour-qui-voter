@@ -15,7 +15,7 @@ Meteor.publish('questions', function() {
   var newPosition = 0;
   var newId = '';
 
-  for (i = 0; i < 5; i++) {
+  for (i = 0; i < NB_OF_QUESTIONS; i++) {
     newPosition = Math.floor(Math.random() * Questions.find().fetch().length);
     while (randomPositions.indexOf(newPosition) > -1) {
       newPosition = Math.floor(Math.random() * Questions.find().fetch().length);

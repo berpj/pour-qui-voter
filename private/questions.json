@@ -34,13 +34,13 @@
     "fn": -1
   },
   {
-    "question": "Il faut aller vers plus d'Europe",
+    "question": "Il faut rétablir les frontières de la France",
     "description": "",
     "category": "europe",
     "fg": -1,
-    "eelv": 1,
-    "ps": 1,
-    "pld": 1,
+    "eelv": -1,
+    "ps": -1,
+    "pld": -1,
     "lr": 0,
     "fn": -1
   },
@@ -100,6 +100,17 @@
     "fn": 1
   },
   {
+    "question": "Nous devons privilégier les relations avec la Russie à celles avec les USA",
+    "description": "",
+    "category": "international",
+    "fg": 1,
+    "eelv": 0,
+    "ps": 0,
+    "pld": -1,
+    "lr": 0,
+    "fn": 1
+  },
+  {
     "question": "Sortir du nucléaire est urgent",
     "description": "",
     "category": "energie",
@@ -109,5 +120,16 @@
     "pld": -1,
     "lr": -1,
     "fn": 0
+  },
+  {
+    "question": "La justice doit être beaucoup plus ferme avec les déliquants",
+    "description": "",
+    "category": "justice",
+    "fg": 0,
+    "eelv": 0,
+    "ps": 0,
+    "pld": 0,
+    "lr": 1,
+    "fn": 1
   }
 ]

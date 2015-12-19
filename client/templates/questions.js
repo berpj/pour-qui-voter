@@ -13,7 +13,7 @@ Template.question.helpers({
     return Session.get('answers').length;
   },
   totalQuestions: function() {
-    return 5;
+    return NB_OF_QUESTIONS;
   }
 })
 
@@ -47,8 +47,6 @@ function findResult() {
     }
   });
 
-  Session.set('answers', []);
-
   return '/result/' + final_result;
 }
 
@@ -66,8 +64,7 @@ Template.question.events({
 
     console.log(Session.get('answers'));
 
-    if (Session.get('answers').length == 5) {
-      Session.set('currentQuestion', 0);
+    if (Session.get('answers').length == NB_OF_QUESTIONS) {
       Router.go(findResult());
     }
     else {
