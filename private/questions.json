@@ -78,7 +78,7 @@
     "fn": 1
   },
   {
-    "question": "Il faut renforcer la présence des forces de l'ordre dans notre pays",
+    "question": "Il faut renforcer la présence des forces de l'ordre en France",
     "description": "",
     "category": "securite",
     "fg": 0,
@@ -100,7 +100,7 @@
     "fn": 1
   },
   {
-    "question": "Nous devons privilégier les relations avec la Russie à celles avec les USA",
+    "question": "Nous devons renforcer nos relations avec la Russie",
     "description": "",
     "category": "international",
     "fg": 1,
@@ -144,7 +144,7 @@
     "fn": 1
   },
   {
-    "question": "Il faut maintenir, voir augmenter, le nombre d'emplois publics",
+    "question": "Il faut augmenter le nombre d'emplois publics",
     "description": "",
     "category": "publique",
     "fg": 1,
